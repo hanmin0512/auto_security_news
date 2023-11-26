@@ -27,7 +27,6 @@ class Crwal:
                 for uri in uris:
                         uri_value = uri.get('onclick').split('=')[1:]
                         self.url_list.append(self.url + '='.join(uri_value).replace("'","").strip(";"))
-                print(self.url_list)
                              
         
 #B = Crwal()
