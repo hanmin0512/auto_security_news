@@ -2,9 +2,10 @@
 - 보안뉴스라는 매체의 한국 보안 이슈들을 자동으로 크롤링하여 제목과, url을 자동으로 크롤링하여 엑셀파일에 저장하는 프로그램 제작.
 
 ## 사전 install 모듈 및 명령어
-- openpyxl ```pip install openpyxl```
-- openpyxl ```pip install requests```
-- openpyxl ```pip install bs4```
+-  ```pip install openpyxl```
+-  ```pip install requests```
+-  ```pip install bs4```
+-  ```pip install lxml```
 
 ## 모듈화
 - Crwaling.py : 보안뉴스 사이트를 크롱링을 담당할 모듈 제작코드.
